@@ -1,12 +1,14 @@
-# MoorinQ Production Package v4
+# MoorinQ Production Package v5
 
-Included:
-- Larger readable header logo
-- Updated operations section
-- Improved mobile access visual proportions
-- Corporate footer and contact information
-- /en /de /fr static pages
-- favicon + OG image + meta tags
+Changes:
+- cropped and enlarged logo
+- improved hero composite visual
+- improved mobile access visual proportions
+- stronger operations section
+- corporate footer/contact details
 
-Deploy:
-Upload to GitHub Pages, Netlify, or Firebase Hosting as a static site.
+Deploy as a static site to GitHub Pages, Netlify or Firebase Hosting.
+
+
+Updated in v6:
+- Replaced hero, mobile access, operator dashboard, and bay monitoring map with final 4 generated visual assets.

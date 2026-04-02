@@ -4,9 +4,6 @@
 <meta property="og:title" content="MoorinQ | Digital verwaltete Mooring-Infrastruktur" /><meta property="og:description" content="MoorinQ ist eine digitale Mooring-Infrastrukturplattform für verifizierte Küstenoperationen, Feldsichtbarkeit und Betreiberkontrolle." />
 <meta property="og:image" content="../assets/og-image.png" /><meta property="og:type" content="website" />
 <link rel="icon" type="image/png" href="../assets/favicon.png" />
-<link rel="alternate" hreflang="en" href="https://moorinq.com/en/" />
-<link rel="alternate" hreflang="de" href="https://moorinq.com/de/" />
-<link rel="alternate" hreflang="fr" href="https://moorinq.com/fr/" />
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -17,7 +14,7 @@ tailwind.config={theme:{extend:{colors:{navy:'#05182E',navy2:'#071F39',accent:'#
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 html{scroll-behavior:smooth} body{font-family:Inter,system-ui,sans-serif}
-.glass{background:rgba(5,24,46,.82);backdrop-filter:blur(12px)}
+.glass{background:rgba(5,24,46,.86);backdrop-filter:blur(12px)}
 .section-dark{background:linear-gradient(180deg,#05182E 0%,#071F39 100%)}
 .card-dark{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
 </style>
@@ -25,7 +22,9 @@ html{scroll-behavior:smooth} body{font-family:Inter,system-ui,sans-serif}
 <body class="bg-soft text-slate-900">
 <header class="fixed inset-x-0 top-0 z-50 glass border-b border-white/10">
   <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-8">
-    <a href="./" class="flex items-center shrink-0"><img src="../assets/logo.png" alt="MoorinQ" class="h-14 md:h-16 w-auto" /></a>
+    <a href="./" class="flex items-center shrink-0">
+      <img src="../assets/logo-cropped.png" alt="MoorinQ" class="h-20 md:h-24 w-auto" />
+    </a>
     <nav class="hidden md:flex gap-8 text-sm text-slate-200 flex-1 justify-center">
       <a href="#platform">Plattform</a>
       <a href="#ibuoy">iBuoy 5.0</a>
@@ -44,7 +43,7 @@ html{scroll-behavior:smooth} body{font-family:Inter,system-ui,sans-serif}
   </div>
 </header>
 
-<section class="section-dark pt-36 pb-20 text-white">
+<section class="section-dark pt-44 pb-20 text-white">
   <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
     <div>
       <div class="inline-flex items-center gap-2 rounded-full border border-tealx/30 px-4 py-2 text-sm text-tealx mb-6">Managed Mooring Infrastructure Platform</div>
@@ -122,7 +121,7 @@ html{scroll-behavior:smooth} body{font-family:Inter,system-ui,sans-serif}
       <p class="mt-4 text-slate-300">MoorinQ connects field hardware, secure data flow, verification logic and operator control within one managed operational structure.</p>
     </div>
     <div class="rounded-3xl overflow-hidden border border-white/10 bg-white/5 p-4">
-      <img src="../assets/system-overview.jpg" alt="MoorinQ System Overview" class="w-full rounded-2xl" />
+      <img src="../assets/bay-monitoring-map.png" alt="MoorinQ System Overview" class="w-full rounded-2xl" />
     </div>
   </div>
 </section>
@@ -130,7 +129,7 @@ html{scroll-behavior:smooth} body{font-family:Inter,system-ui,sans-serif}
 <section class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
     <div class="rounded-3xl border border-slate-200 p-6 bg-slate-50">
-      <img src="../assets/dashboard-ui.jpg" alt="Operator Dashboard" class="w-full rounded-2xl" />
+      <img src="../assets/operator-dashboard-final.png" alt="Operator Dashboard" class="w-full rounded-2xl" />
     </div>
     <div>
       <div class="text-tealx font-semibold mb-3">Operational Control</div>
@@ -200,7 +199,7 @@ html{scroll-behavior:smooth} body{font-family:Inter,system-ui,sans-serif}
 <footer class="bg-[#041221] text-slate-300 py-12">
   <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 items-start">
     <div>
-      <img src="../assets/logo.png" alt="MoorinQ" class="h-14 w-auto mb-4" />
+      <img src="../assets/logo-cropped.png" alt="MoorinQ" class="h-16 w-auto mb-4" />
       <p class="text-sm max-w-md">Digitally managed mooring infrastructure for verified coastal operations.</p>
     </div>
     <div>
