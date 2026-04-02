@@ -18,3 +18,7 @@ Updated in v7:
 - restored original System Overview visual
 - removed duplicate detailed contact info from footer
 - enlarged footer logo
+
+Updated in v8:
+- Replaced all site logos with final provided MoorinQ logo asset
+- Adjusted header/footer logo sizing for wide horizontal logo
