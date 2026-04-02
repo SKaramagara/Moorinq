@@ -12,3 +12,9 @@ Deploy as a static site to GitHub Pages, Netlify or Firebase Hosting.
 
 Updated in v6:
 - Replaced hero, mobile access, operator dashboard, and bay monitoring map with final 4 generated visual assets.
+
+Updated in v7:
+- tighter cropped logo for better readability
+- restored original System Overview visual
+- removed duplicate detailed contact info from footer
+- enlarged footer logo
