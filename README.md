@@ -1,17 +1,12 @@
-# MoorinQ Production Package v3
+# MoorinQ Production Package v4
 
 Included:
-- Correct MoorinQ logo integration
-- Correct System Overview image
-- Hero composite image
-- iBuoy 5.0 image
-- Operator Dashboard image
-- Boat Owner App image
-- favicon + OG image + meta SEO set
-- Separate /en /de /fr production pages
-- Netlify Forms compatible contact form
+- Larger readable header logo
+- Updated operations section
+- Improved mobile access visual proportions
+- Corporate footer and contact information
+- /en /de /fr static pages
+- favicon + OG image + meta tags
 
 Deploy:
-1. Upload folder or ZIP to Netlify
-2. Publish as static site
-3. Root redirects to /en/
+Upload to GitHub Pages, Netlify, or Firebase Hosting as a static site.
